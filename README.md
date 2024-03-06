@@ -12,3 +12,5 @@ Deep neural networks have made significant progress benefiting large-scale corre
 </div>
 
 # Setups
+Installtion:
+Please check [install.md] for installation instructions.
