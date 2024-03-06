@@ -25,3 +25,7 @@ Deep neural networks have made significant progress benefiting large-scale corre
   Run the file [noisy_labels_AN_VOC.py](https://github.com/QiangqiangXia/GOOD/blob/main/noisy_labels_AN_VOC.py).
 
   Similarly, noise under other datasets can be set.
+  
+# Training
+
+For Pascal VOC2012 dataset: models should be trained with the config
