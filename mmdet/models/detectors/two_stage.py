@@ -6,7 +6,7 @@ import torch.nn as nn
 from ..builder import DETECTORS, build_backbone, build_head, build_neck
 from .base import BaseDetector
 
-def save_checkpoint(state, checkpoint='autodl-tmp/LNCIS/work_dirs', filename='checkpoint.pth.tar'):
+def save_checkpoint(state, checkpoint='./work_dirs', filename='checkpoint.pth.tar'):
     filepath = os.path.join(checkpoint, filename)
     torch.save(state, filepath)
 
