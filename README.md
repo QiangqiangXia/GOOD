@@ -28,4 +28,4 @@ Deep neural networks have made significant progress benefiting large-scale corre
   
 # Training
 
-For Pascal VOC2012 dataset: models should be trained with the config
+For Pascal VOC2012 dataset: models should be trained with the config [faster_rcnn_r50_fpn_1x_voc0712.py]().
