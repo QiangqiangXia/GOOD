@@ -27,5 +27,16 @@ Deep neural networks have made significant progress benefiting large-scale corre
   Similarly, noise under other datasets can be set.
   
 # Training
+For Pascal VOC2012 dataset: models should be trained with the config [faster_rcnn_r50_fpn_1x_voc0712.py](https://github.com/QiangqiangXia/GOOD/blob/main/configs/pascal_voc/faster_rcnn_r50_fpn_1x_voc0712.py).
 
-For Pascal VOC2012 dataset: models should be trained with the config [faster_rcnn_r50_fpn_1x_voc0712.py]().
+Here is an example:
+
+```python
+python ./tools/train.py ./configs/pascal_voc/faster_rcnn_r50_fpn_1x_voc0712.py
+```
+
+Other datasets should apply similar settings.
+
+# Reference
+[1]: Thank for [Learning with Noisy Class Labels for Instance Segmentation](https://github.com/longrongyang/LNCIS).
+
