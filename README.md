@@ -13,4 +13,15 @@ Deep neural networks have made significant progress benefiting large-scale corre
 
 # Setups
 Installtion:
-Please check [install.md]() for installation instructions or refer to [LNCIS](https://github.com/longrongyang/LNCIS)
+
+Please check [install.md]() for installation instructions or refer to [LNCIS](https://github.com/longrongyang/LNCIS) project.
+
+Data Generation:
+
+For symmetric noise:
+Run the file noisy_labels_SN_VOC.py().
+
+For asymmetric noise:
+Run the file noisy_labels_AN_VOC.py().
+
+Similarly, noise under other datasets can be set.
