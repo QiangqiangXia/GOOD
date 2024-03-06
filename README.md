@@ -10,3 +10,5 @@ Deep neural networks have made significant progress benefiting large-scale corre
 <div align=center>
 <img src="https://github.com/QiangqiangXia/GOOD/blob/main/GOOD.png"> <width="500" height="300">
 </div>
+
+# Setups
