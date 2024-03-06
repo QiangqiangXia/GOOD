@@ -170,7 +170,7 @@ class NewCombinationLoss(nn.Module):
                 reduction_override=None,
                 **kwargs):
         
-        checkpoint = torch.load('autodl-tmp/LNCIS/work_dirs/checkpoint.pth.tar')
+        checkpoint = torch.load('./work_dirs/checkpoint.pth.tar')
         epoch = checkpoint['epoch']
         
         ascent_rate = [0.0, -0.001, -0.005, -0.01, -0.05, -0.1]
@@ -205,6 +205,6 @@ class NewCombinationLoss(nn.Module):
         loss = (weight2 * loss).mean()
         rce = (weight2 * rce).mean()
 
-        loss_cls = self.loss_weight * (ce + 0.01 * loss + rce)
+        loss_cls = self.loss_weight * (ce + 0.01 * loss + rce) # 1 for symmetric noise and 0.01 for asymmetric noise
 
         return loss_cls
