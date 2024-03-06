@@ -19,9 +19,9 @@ Please check [install.md]() for installation instructions or refer to [LNCIS](ht
 Data Generation:
 
 For symmetric noise:
-Run the file noisy_labels_SN_VOC.py().
+Run the file [noisy_labels_SN_VOC.py](https://github.com/QiangqiangXia/GOOD/blob/main/noisy_labels_SN_VOC.py).
 
 For asymmetric noise:
-Run the file noisy_labels_AN_VOC.py().
+Run the file [noisy_labels_AN_VOC.py](https://github.com/QiangqiangXia/GOOD/blob/main/noisy_labels_AN_VOC.py).
 
 Similarly, noise under other datasets can be set.
