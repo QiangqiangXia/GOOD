@@ -13,4 +13,4 @@ Deep neural networks have made significant progress benefiting large-scale corre
 
 # Setups
 Installtion:
-Please check [install.md] for installation instructions.
+Please check [install.md]() for installation instructions or refer to [LNCIS](https://github.com/longrongyang/LNCIS)
